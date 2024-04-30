@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>onlineshopping</title>
+	<link href="css/online shopping css.css" rel="stylesheet" type="text/css">
+	
+
+</head>
+<body >
+	<div class="menu" >
+		<h2 style="display:inline;" id="logo" style="color:#B60000"><a href="elite home page.html">Elite</a></h2>
+	
+	<ul class="unorder">
+		<li > <a href="elite home page.html">Main</a></li>
+		<li > <a href="items page.html">Items</a></li>
+		<li > <a href="onlineshopping page.html">Online Shopping Form</a></li>
+		<li > <a href="contact us.html">Contact Us</a></li>
+	
+	</ul>
+	</div >
+	
+	
+	
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+			<!--------The product section ------------->
+	<div style=" height:500px;width:100%;">
+		<div class="products">
+			<h1>products:</h1>
+			
+			<list>
+				<ul>
+					<li>Tablets and Laptops</li>
+					<li>Smartphones</li>
+					<li>Home Entertainment</li>
+					<li>Wearable Devices</li>
+				
+				</ul>
+			</list>
+		
+		</div>
+		
+		<div class="">
+		<img src="images/checkout.gif" class="image2">
+		</div>
+	</div>	
+	
+	<!-- THe items Table -->
+	
+	<div class="itemsTable">
+	
+	
+		<table border="2" width="100%"  >
+			<caption style="font-size:2.2rem" >List of Items</caption>
+			<tr>
+				<th>Items</th>
+				<th>properties</th>
+				<th>number of Items</th>
+				<th>cost ($)</th>
+			</tr>
+			
+			<tr >
+				<td ><input   class="devices" type="checkbox" value="400" onclick="enable(this.className,'1',this.value)"  > Lenovo Yoga Book 9i (400$)</td>
+				<td >
+					
+					<input type="radio" disabled class="1"  value="400" name="lenovo"  onclick="unit(this.value,this.className)" > <span>(black) 4 Ram + 255ssd + core I3 ---- (400$)</span> <br>
+					<input   type="radio" disabled class="1" value="470" name="lenovo" onclick="unit(this.value,this.className)"> <span>(black) 8 Ram + 500ssd  + core I7 ---- (470$)</span><br> 
+					<input   type="radio" disabled class="1" value="550" name="lenovo" onclick="unit(this.value,this.className)" > <span>(silver) 16 Ram + 1Tr ssd + core I9 ---- (550$)</span> 
+					
+				</td>
+				
+				
+				<td>
+					<select  name="property" class="selection" onchange="times(1)" disabled  >
+						
+						<option value="1" class="choose1" name="choosingLenovo">1</option>
+						<option value="2" class="choose1" name="choosingLenovo">2</option>
+						<option value="3" class="choose1" name="choosingLenovo">3</option>
+						<option value="4" class="choose1" name="choosingLenovo">4</option>
+					<select>	
+				</td>
+				<td><p class="Output">0</p></td>
+			</tr>
+			
+			<tr >
+				<td><input class="devices" type="checkbox" value="900" onclick="enable(this.className,'2',this.value)" > HP Spectre x360 16-f2000na (900$)</td>
+				<td id="h">
+					<input type="radio" disabled value="900" class="2" name="Hp" checked onclick="unit(this.value,this.className)"> <span>(black) 4 Ram + 255ssd + core I3 ---- (900$)</span> <br>
+					<input type="radio" disabled value="970" class="2" name="Hp" onclick="unit(this.value,this.className)"> <span>(black) 8 Ram + 500ssd + core I5 ---- (970$)</span><br> 
+					<input type="radio" disabled value="1020" class="2" name="Hp" onclick="unit(this.value,this.className)"> <span>(black) 16 Ram + 1Tr ssd + core I7 ---- (1020$)</span> 
+				</td>
+				
+				
+				<td>
+					<select class="selection" onchange="times(2)" disabled>
+						<option value="1" class="choose2" name="choosingHp" >1</option>
+						<option value="2" class="choose2" name="choosingHp">2</option>
+						<option value="3" class="choose2" name="choosingHp">3</option>
+						<option value="4" class="choose2" name="choosingHp">4</option>
+					<select>	
+				</td>
+				<td><p class="Output">0</p></td>
+			</tr> 
+			
+			<tr >
+				<td><input class="devices"  type="checkbox" value="900" onclick="enable(this.className,'3',this.value)" > Macbook Air M2 (900$)</td>
+				<td id="m">
+					<input type="radio" value="900" disabled class="3" name="mac" checked onchange="unit(this.value,this.className)"> <span>(silver) 4 Ram + 255ssd + M1 ---- (900$)</span> <br>
+					<input type="radio" value="970" disabled class="3" name="mac" onchange="unit(this.value,this.className)"> <span>(silver) 8 Ram + 500ssd + M1---- (970$)</span><br> 
+					<input type="radio" value="1550" disabled class="3" name="mac" onchange="unit(this.value,this.className)"> <span>(silver) 16 Ram + 1Tr ssd + M2 ---- (1550$)</span> 
+				</td>
+				
+				
+				<td>
+					<select class="selection" onchange="times(3)" disabled>
+						
+						<option value="1" class="choose3" name="choosingMac" >1</option>
+						<option value="2" class="choose3" name="choosingMac" >2</option>
+						<option value="3" class="choose3" name="choosingMac" >3</option>
+						<option value="4" class="choose3" name="choosingMac" >4</option>
+					<select>	
+				</td>
+				<td><p class="Output">0</p></td>
+			</tr>
+			
+			<tr >
+				<td><input class="devices" type="checkbox"  value="700" onclick="enable(this.className,'4',this.value)"> Ipad pro M2 (700$)</td>
+				<td id="i">
+					<input type="radio" class="4" value="700" name="ipad" disabled checked onclick="unit(this.value,this.className)"> <span>(silver) 128Gg + M1 ---- (700$)</span> <br>
+					<input type="radio" class="4" value="820" name="ipad" disabled onclick="unit(this.value,this.className)"> <span>(Black) 8 Ram + 255Gg + M1---- (820$)</span><br> 
+					<input type="radio" class="4" value="1200" name="ipad" disabled onclick="unit(this.value,this.className)"> <span>(pink) 16 Ram + 500Gg + M2 ---- (1200$)</span> 
+				</td>
+				
+				
+				<td>
+					<select class="selection" onchange="times(4)" disabled>
+						
+						<option value="1" class="choose4" name="choosingIpad">1</option>
+						<option value="2" class="choose4" name="choosingIpad">2</option>
+						<option value="3" class="choose4" name="choosingIpad">3</option>
+						<option value="4" class="choose4" name="choosingIpad">4</option>
+					<select>	
+				</td>
+				<td><p class="Output">0</p></td>
+			</tr>
+			
+			<tr >
+				<td>
+				<input class="devices" type="checkbox"  value="950" onclick="enable(this.className,'5',this.value)"> Iphone 14 pro Max(950$)</a></td>
+				<td id="iph">
+					<input type="radio" class="5" value="950" name="iphone" disabled checked onclick="unit(this.value,this.className)"> <span>(silver) 128Gg + M1 ---- (950$)</span> <br>
+					<input type="radio" class="5" value="1020" name="iphone"disabled onclick="unit(this.value,this.className)"> <span>(Black) 8 Ram + 255Gg + M1---- (1020$)</span><br> 
+					<input type="radio" class="5" value="1300" name="iphone"disabled onclick="unit(this.value,this.className)"> <span>(pink) 16 Ram + 500Gg + M2 ---- (1300$)</span> 
+				</td>
+				
+				
+				<td>
+					<select class="selection" onchange="times(5)" disabled >
+						
+						<option value="1" class="choose5" name="choosingIphone">1</option>
+						<option value="2" class="choose5" name="choosingIphone">2</option>
+						<option value="3" class="choose5" name="choosingIphone">3</option>
+						<option value="4" class="choose5" name="choosingIphone">4</option>
+					<select>	
+				</td>
+				<td><p class="Output">0</p></td>
+			</tr>
+			
+			<tr>
+			<td colspan="2">Total Cost ($)<td>
+			
+			<input   id="calc" name="calculate" type="submit" value="calculate" onclick="total()" >  
+			
+			<td><p id="total"></p></td>
+			
+			
+			</tr>
+		</table>	
+		
+			
+		
+		
+		
+	</div>
+	
+	
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<div class="footer">
+		
+		<p>Made By Yousef & Abdullah <br><br>@ 2023 </p>
+	 
+	 </div>
+	
+	
+<script src="javascript/javascript elite.js"></script>
+
+</body>
+</html>

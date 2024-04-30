@@ -1,0 +1,144 @@
+body{
+	
+	background-color:#212529;
+	
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	font-family: sans-serif;
+	color:#edf2fb;
+		font-family:Cursive;
+
+}
+
+.alpom li{
+	display:inline-block;
+	padding:40px 65px;
+	
+	
+}
+
+.alpom p{
+	font-size:1.8rem;
+	font-weight:bold;
+	font-family:Monospace;
+}
+
+	/* --------------The menu section-------------- */
+.menu{
+	background-color:#000;
+	width:100%;
+	height:4.5rem;
+	font-size:1.6rem;
+	align-items: center;
+	position:fixed;
+	overflow:hidden;
+	z-index:999;
+	
+}
+
+.menu #logo{
+	text-decoration:none;
+	background-color:black;
+	font-size:3rem;
+	font-family: Arial Black;
+	float:left;
+	position:relative;
+	left:35px;
+	
+
+}
+
+.menu  a{
+	text-decoration:none;
+	transition:0.4s;
+	
+}
+
+.menu .unorder{ 
+	list-style-type:none; 
+	float:right; 
+	display:inline;
+} 
+.menu ul li {
+	display:inline;
+	margin: 30px;
+	padding: 8px;
+	position:relative;
+	top:25px;
+}
+
+
+.menu a:hover{
+	color:#B60000;
+	
+	
+}
+
+
+/***********image section*********/
+/***********image section*********/
+
+#macbook{
+	/*width:500px;*/
+}
+
+
+/***********images section*********/
+#devicesimg{
+	width:35%;
+}
+
+
+.alpom{
+	position:relative;
+	top:85px;
+	height:auto;
+	text-align:center;
+	padding-bottom:100px;
+}
+
+
+.devices
+{
+	width:350px;
+	transition:0.5s;
+}
+#iphone{
+	width:250px;
+}
+
+#GOTO{
+	background-color:#000;
+	text-decoration:none;
+	transition:0.4s;
+	font-size:1.9rem;
+	border-radius:50px;
+	padding:20px;
+	font-family:Monospace;
+}
+
+#GOTO:hover{
+	background-color:#B60000;
+	
+	
+}
+
+/***********footer section*********/
+
+.footer{
+	width:100%;
+	height:130px;
+	background-color:#000;
+	
+}
+
+.footer p{
+	text-align:center;
+	font-size:1.3rem;
+	position:relative;
+	top:34px;
+	color:#8d99ae;
+}

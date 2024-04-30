@@ -1,0 +1,273 @@
+body{
+	
+	background-color:#212529;
+	
+}
+table{
+	border-color:#000;
+	border-style:none;
+	background-color:#161a1d;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	font-family: sans-serif;
+	color:#edf2fb;
+		font-family:Cursive;
+
+}
+span{
+	font-size:1.8rem;
+	font-weight:bold;
+}
+td{
+	font-size:1.8rem;
+	font-weight:bold;
+}
+
+input,select{
+	size:50px;
+	font-size:1.8rem;
+	padding:15px;
+	background-color:#000;
+	transition:0.5s;
+	font-weight:bold;
+	border-style:solid;
+	border-radius: 50px 10px;
+}
+
+input,select:hover{
+	background-color:#B60000;
+}
+	
+h1{
+	font-size:3.2rem;
+	margin-bottom:6% ;
+	position:relative;
+	left:10%;
+	
+}
+	
+	
+	/* --------------The menu section-------------- */
+.menu{
+	background-color:#000;
+	width:100%;
+	height:4.5rem;
+	font-size:1.6rem;
+	align-items: center;
+	position:fixed;
+	overflow:hidden;
+	z-index:999;
+	
+}
+
+.menu #logo{
+	text-decoration:none;
+	background-color:black;
+	font-size:3rem;
+	font-family: Arial Black;
+	float:left;
+	position:relative;
+	left:35px;
+	
+
+}
+
+.menu  a{
+	text-decoration:none;
+	transition:0.4s;
+	
+}
+
+.menu .unorder{ 
+	list-style-type:none; 
+	float:right; 
+	display:inline;
+} 
+.menu ul li {
+	display:inline;
+	margin: 30px;
+	padding: 8px;
+	position:relative;
+	top:25px;
+	
+	
+	
+}
+
+
+.menu a:hover{
+	color:#B60000;
+	
+	
+}
+
+		/*------- The product section------ */
+
+.products {
+	
+	
+	width:50%;
+	height:500px;
+	float:left;
+	
+	
+}	
+.products list a{
+	text-decoration:none;
+	
+}
+
+.devices{
+	float:right;
+	width:50%;
+	
+}
+
+
+.products h1{
+	font-size:3.2rem;
+	margin-bottom:6% ;
+	position:relative;
+	left:20%;
+}
+
+
+.products ul li{
+	font-size:1.8rem;
+	max-width:40%;
+	padding:2% 2% ;
+	transition:0.4s;
+	list-style-type:none;
+	position:relative;
+	left:30%;	
+	
+	
+}
+
+
+
+.products ul li:hover{
+	background-color:#B60000;
+	
+}
+
+/* ----------------laptops section---------- */
+
+.laptops{
+	margin:10% 0 0 0;
+	background-image:URL("images/laptop.jpeg");
+	background-attachment:fixed; 
+	width:100%;
+	height:25rem;
+	background-repeat:no-repeat;
+	background-size: cover;
+
+	
+
+}
+
+
+
+
+.laptops a{
+	font-size:3.2rem;
+	margin-bottom:6% ;
+	position:relative;
+	left:10%;
+	top:35%;
+	width:15%;
+	text-decoration:none;
+	transition:0.4s;
+
+}
+
+.laptops a:hover{
+	
+	color:#B60000;
+
+}
+
+/* ----------------The content section--------------- */
+
+.content img{
+	width:30%;
+	/* position:relative; */
+	/* left:35%; */
+	float:left;
+	
+}
+.content p{
+	font-size:1.8rem;
+	float:right;
+	
+}
+
+.content strong{
+	
+	position:relative;
+	
+	
+	
+	
+}
+
+/* ***************The table section **************/
+
+.itemsTable tr th{
+	font-size:2rem;
+}
+td{
+	text-align:center;
+	font-size:1.5rem;
+	padding:50px;
+}
+
+.itemsTable table  a{
+	text-decoration:none;
+	transition:0.4s;
+}
+
+
+
+
+.itemsTable table  a:hover{
+	color:#B60000;
+}
+
+p{
+	color:white;
+}
+
+#calc{
+	size:50px;
+	font-size:1.8rem;
+	padding:15px;
+	background-color:#000;
+	transition:0.5s;
+	font-weight:bold;
+	border-style:solid;
+	border-radius: 50px 10px;
+	
+}
+
+
+#calc:hover{
+	background-color:#B60000;
+}
+
+.footer{
+	width:100%;
+	height:130px;
+	background-color:#000;
+}
+
+.footer p{
+	text-align:center;
+	font-size:1.3rem;
+	position:relative;
+	top:34px;
+	color:#8d99ae;
+}
